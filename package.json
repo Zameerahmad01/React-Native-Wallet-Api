@@ -4,14 +4,8 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-<<<<<<< HEAD
     "start": "node server.js",
     "dev": "nodemon server"
-=======
-    "start": "node src/server.js",
-    "dev": "nodemon src/server",
-    "postinstall":"prisma generate"
->>>>>>> f47372d3a94c6f4949d49cb96e33429c6c84a217
   },
   "keywords": [],
   "author": "",
