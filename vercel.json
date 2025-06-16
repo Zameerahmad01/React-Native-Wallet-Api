@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "builds": [
+    {
+<<<<<<< HEAD
+      "src": "server.js",
+=======
+      "src": "src/server.js",
+>>>>>>> f47372d3a94c6f4949d49cb96e33429c6c84a217
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+<<<<<<< HEAD
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+=======
+      "src": "/api/(.*)",
+      "dest": "src/server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "src/server.js"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+>>>>>>> f47372d3a94c6f4949d49cb96e33429c6c84a217
+}
